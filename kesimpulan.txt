@@ -1,0 +1,19 @@
+Kesimpulannya adalah sebagai berikut.
+
+1. Dilasi (Dilation)
+Fungsi   : Memperbesar area objek terang (putih) dalam gambar.
+Kegunaan : 1. Menyambungkan bagian objek yang terputus.
+           2. Menambah ukuran objek kecil.
+
+2. Erosi (Erosion)
+Fungsi   : Mengecilkan area objek terang (putih).
+Kegunaan : 1. Menghapus noise terang kecil.
+           2. Memisahkan objek yang berdekatan.
+
+3. Opening (Erosi → Dilasi)
+Fungsi   : Menghapus noise terang kecil pada latar gelap sambil mempertahankan bentuk objek utama.
+Kegunaan : 1. Menghilangkan titik-titik terang kecil tanpa mengubah bentuk utama objek.
+
+4. Closing (Dilasi → Erosi)
+Fungsi   : Menutup lubang kecil atau celah gelap dalam objek terang (putih).
+Kegunaan : 1. Menyambungkan bagian objek terang yang hampir menyatu.
